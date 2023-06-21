@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".Second"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-161dp">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="330dp"
+            android:layout_height="620dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Swotify" />
+
+                <TextView
+                    android:id="@+id/welcome3"
+                    android:layout_width="334dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginEnd="200dp"
+                    android:layout_marginRight="50dp"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Your Library"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/fallen_cover" />
+
+                <TextView
+                    android:id="@+id/song_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Fallen"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Lola Amour"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/play_button"
+                    android:layout_width="220dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:backgroundTint="#1DB954"
+                    android:gravity="center"
+                    android:onClick="LaunchSongActivity"
+                    android:text="PLAY"
+                    app:iconTint="#274E14" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/ride_home_cover" />
+
+                <TextView
+                    android:id="@+id/song_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:gravity="center"
+                    android:text="Ride Home"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/author2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Ben and Ben"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/play_button2"
+                    android:layout_width="220dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:backgroundTint="#1DB954"
+                    android:gravity="center"
+                    android:onClick="LaunchSongActivity"
+                    android:text="PLAY"
+                    app:iconTint="#274E14" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/sunflower_cover" />
+
+                <TextView
+                    android:id="@+id/song_title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:gravity="center"
+                    android:text="Sunflower"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/author3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Post Malone"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/play_button3"
+                    android:layout_width="220dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:backgroundTint="#1DB954"
+                    android:gravity="center"
+                    android:onClick="LaunchSongActivity"
+                    android:text="PLAY"
+                    app:iconTint="#274E14" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/umaaraw_umuulan_cover" />
+
+                <TextView
+                    android:id="@+id/song_title4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:gravity="center"
+                    android:text="Umaaraw Umuulan"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/author4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="December Avenue"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/play_button4"
+                    android:layout_width="220dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:backgroundTint="#1DB954"
+                    android:gravity="center"
+                    android:onClick="LaunchSongActivity"
+                    android:text="PLAY"
+                    app:iconTint="#274E14" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/paper_rings_cover" />
+
+                <TextView
+                    android:id="@+id/song_title5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:gravity="center"
+                    android:text="Paper Rings"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/author5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Taylor Swift"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/play_button5"
+                    android:layout_width="220dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:backgroundTint="#1DB954"
+                    android:gravity="center"
+                    android:onClick="LaunchSongActivity"
+                    android:text="PLAY"
+                    app:iconTint="#274E14" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
